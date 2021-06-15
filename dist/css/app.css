@@ -121,7 +121,7 @@ nav .socials i {
   background-color: #EF6F31;
   border: none;
   color: white;
-  padding: 0.7rem 1.3rem;
+  padding: 1rem 1.5rem;
   border-radius: 3px;
   font-weight: 600;
 }
@@ -156,9 +156,10 @@ nav .socials i {
 }
 .coaching .row > img {
   position: absolute;
-  transform: rotate(250deg);
+  transform: rotate(230deg);
   top: -120px;
   left: -500px;
+  height: 600px;
 }
 .coaching .row .card {
   margin: 1rem;
@@ -175,4 +176,48 @@ nav .socials i {
   position: absolute;
   top: 35%;
   right: 0;
+}
+.coaching .citazione {
+  width: 70%;
+  margin: 4rem auto;
+  display: flex;
+}
+.coaching .citazione .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coaching .citazione .left p {
+  font-size: 3rem;
+  width: 400px;
+  font-weight: 600;
+  text-align: center;
+}
+.coaching .citazione .left .autor {
+  padding-top: 2rem;
+  font-size: 2.4rem;
+  color: #72C8F1;
+  font-family: "Allura", cursive;
+}
+.coaching .citazione .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.coaching .citazione .right p {
+  line-height: 1.6rem;
+  margin: 0.5rem auto;
+}
+.coaching .citazione .right button {
+  margin-top: 2rem;
+  background-color: #FDF0EA;
+  border: none;
+  color: #EF6F31;
+  padding: 1rem 1.5rem;
+  border-radius: 3px;
+  font-weight: 600;
 }

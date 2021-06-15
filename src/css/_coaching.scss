@@ -26,9 +26,10 @@
         position: relative;
         &>img {
             position: absolute;
-            transform: rotate(250deg);
+            transform: rotate(230deg);
             top: -120px;
             left: -500px;
+            height: 600px;
         }
         .card {
             margin: 1rem;
@@ -47,5 +48,51 @@
         position: absolute;
         top: 35%;
         right: 0;
+    }
+
+    //citazione
+    .citazione {
+        width: 70%;
+        margin: 4rem auto;
+        display: flex;
+        .left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 3rem;
+                width: 400px;
+                font-weight: 600;
+                text-align: center;
+            }
+            .autor {
+                padding-top: 2rem;
+                font-size: 2.4rem;
+                color: $color_cursive;
+                font-family: $font_corsivo;
+            }
+        }
+        .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1rem;
+            p {
+                line-height: 1.6rem;
+                margin: 0.5rem auto;
+            }
+            button {
+                margin-top: 2rem;
+                background-color: #FDF0EA;
+                border: none;
+                color: #EF6F31;
+                padding: 1rem 1.5rem;
+                border-radius: 3px;
+                font-weight: 600;
+            }
+        }
     }
 }
