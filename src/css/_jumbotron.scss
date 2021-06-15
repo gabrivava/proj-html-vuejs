@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 .jumbotron {
     height: 750px;
     background-color: $background_jumbotron;
@@ -16,8 +17,9 @@
         93% 20%,
         80% 93%,
         95% 100%,
-        30% 90%;
+        33% 90%;
     background-repeat: no-repeat;
+    position: relative;
     .artist-hero-image {
         height: 100%;
         position: relative;
@@ -35,10 +37,36 @@
         .n3 {
             position: absolute;
             top: 35%;
-            left: 73%;
+            left: 72%;
         }
         img {
             box-shadow: 1px 1px 20px rgb(151, 151, 151);
+        }
+    }
+
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        h1 {
+            font-size: 3rem;;
+            color: $color_cursive;
+            font-family: 'Allura', cursive;
+        }
+        h2 {
+            font-size: 2rem;
+            max-width: 450px;
+        }
+        button {
+            margin-top: 2rem;
+            background-color: #EF6F31;
+            border: none;
+            color: white;
+            padding: 0.7rem 1.3rem;
+            border-radius: 3px;
+            font-weight: 600;
         }
     }
 }
