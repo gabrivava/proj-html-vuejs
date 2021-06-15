@@ -7,7 +7,12 @@
   \***********************/
 /***/ (() => {
 
-//alert('ok');
+var app = new Vue({
+  el: '#root',
+  data: {},
+  methods: {},
+  mounted: function mounted() {}
+});
 
 /***/ }),
 
