@@ -10,6 +10,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.pt_1 {
+  padding-top: 3rem;
+}
+
 #event {
   background-color: #f5f5f5;
   text-align: center;
@@ -120,4 +124,38 @@ nav .socials i {
   padding: 0.7rem 1.3rem;
   border-radius: 3px;
   font-weight: 600;
+}
+
+.coaching {
+  width: 70%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coaching h3 {
+  font-size: 2.4rem;
+  color: #72C8F1;
+  font-family: "Allura", cursive;
+}
+.coaching h4 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  max-width: 550px;
+  text-align: center;
+}
+.coaching .row {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+.coaching .row .card {
+  margin: 1rem;
+}
+.coaching .row .card h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.coaching .row .card p {
+  line-height: 1.7rem;
 }
