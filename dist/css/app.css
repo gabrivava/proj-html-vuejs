@@ -133,7 +133,7 @@ nav .socials i {
   align-items: center;
   background-image: url(/dist/img/maxcoach-shape-14.png);
   background-repeat: no-repeat;
-  position: relative;
+  background-size: 100%;
 }
 .coaching h3 {
   font-size: 2.4rem;
