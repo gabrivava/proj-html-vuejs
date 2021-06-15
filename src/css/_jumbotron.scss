@@ -1,0 +1,21 @@
+.jumbotron {
+    height: 750px;
+    background-color: $background_jumbotron;
+    background-image: 
+        url(/dist/img/artist-shape-01.png),
+        url(/dist/img/artist-shape-02.png),
+        url(/dist/img/artist-shape-03.png),
+        url(/dist/img/artist-shape-04.png),
+        url(/dist/img/maxcoach-shape-12.png),
+        url(/dist/img/artist-shape-05.png),
+        url(/dist/img/artist-hero-image-03.png);
+    background-position:
+        90% 0%,
+        0% 0%,
+        1% 80%,
+        93% 20%,
+        80% 93%,
+        95% 100%,
+        30% 90%;
+    background-repeat: no-repeat;
+}
