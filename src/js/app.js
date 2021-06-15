@@ -3,6 +3,7 @@ const app = new Vue({
     data: {
         dataEvento: new Date("Jan 5, 2022 15:37:25").getTime(),
         timerEvento: '',
+        navList: ['Home', 'Pages', 'Courses' , 'Features', 'Blog', 'Shop']
     },
     methods: {
             

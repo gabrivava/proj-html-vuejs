@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    &>img {
+        height: 30px;
+    }
+    ul {
+        color: $nav_header;
+        display: flex;
+        list-style: none;
+        div {
+            display: flex;
+            align-items: flex-end;
+            margin: 0 1rem;
+            i {
+                padding: 0.1rem;
+            }
+        }
+    }
+    .socials {
+        color: $color_boulder;
+        i {
+            margin: 0 0.5rem;
+        }
+    }
+}

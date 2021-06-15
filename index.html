@@ -31,6 +31,21 @@
             <!-- nav -->
             <nav>
                 <img src="./dist/img/dark-logo.png" alt="">
+
+                <ul>
+                    <div v-for="el in navList">
+                        <li>{{el}}</li>
+                        <i class="fas fa-chevron-down" style="font-size:13px"></i>
+                    </div>
+                    
+                </ul>
+
+                <div class="socials">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
             </nav>
         </header>
 
