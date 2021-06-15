@@ -71,3 +71,26 @@ nav .socials i {
   background-position: 90% 0%, 0% 0%, 1% 80%, 93% 20%, 80% 93%, 95% 100%, 30% 90%;
   background-repeat: no-repeat;
 }
+.jumbotron .artist-hero-image {
+  height: 100%;
+  position: relative;
+}
+.jumbotron .artist-hero-image .n1 {
+  position: absolute;
+  top: 60%;
+  left: 9%;
+  z-index: 2;
+}
+.jumbotron .artist-hero-image .n2 {
+  position: absolute;
+  top: 15%;
+  left: 19%;
+}
+.jumbotron .artist-hero-image .n3 {
+  position: absolute;
+  top: 35%;
+  left: 73%;
+}
+.jumbotron .artist-hero-image img {
+  box-shadow: 1px 1px 20px #979797;
+}

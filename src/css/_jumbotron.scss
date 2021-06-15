@@ -18,4 +18,27 @@
         95% 100%,
         30% 90%;
     background-repeat: no-repeat;
+    .artist-hero-image {
+        height: 100%;
+        position: relative;
+        .n1 {
+            position: absolute;
+            top: 60%;
+            left: 9%;
+            z-index: 2;
+        }
+        .n2 {
+            position: absolute;
+            top: 15%;
+            left: 19%;
+        }
+        .n3 {
+            position: absolute;
+            top: 35%;
+            left: 73%;
+        }
+        img {
+            box-shadow: 1px 1px 20px rgb(151, 151, 151);
+        }
+    }
 }
