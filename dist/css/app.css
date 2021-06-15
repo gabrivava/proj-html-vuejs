@@ -127,11 +127,13 @@ nav .socials i {
 }
 
 .coaching {
-  width: 70%;
-  margin: 3rem auto;
+  margin: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(/dist/img/maxcoach-shape-14.png);
+  background-repeat: no-repeat;
+  position: relative;
 }
 .coaching h3 {
   font-size: 2.4rem;
@@ -145,17 +147,32 @@ nav .socials i {
   text-align: center;
 }
 .coaching .row {
-  margin-top: 2rem;
+  padding-top: 2rem;
   display: flex;
   align-items: flex-start;
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+.coaching .row > img {
+  position: absolute;
+  transform: rotate(250deg);
+  top: -120px;
+  left: -500px;
 }
 .coaching .row .card {
   margin: 1rem;
 }
 .coaching .row .card h5 {
+  margin: 1rem 0;
   font-size: 1.5rem;
   font-weight: 400;
 }
 .coaching .row .card p {
   line-height: 1.7rem;
+}
+.coaching > img {
+  position: absolute;
+  top: 35%;
+  right: 0;
 }

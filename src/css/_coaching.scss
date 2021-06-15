@@ -1,9 +1,11 @@
 .coaching {
-    width: 70%;
-    margin: 3rem auto;
+    margin: 3rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(/dist/img/maxcoach-shape-14.png);
+    background-repeat: no-repeat;
+    position: relative;
     h3 {
         font-size: 2.4rem;
         color: $color_cursive;
@@ -16,12 +18,22 @@
         text-align: center;
     }
     .row {
-        margin-top: 2rem;
+        padding-top: 2rem;
         display: flex;
         align-items: flex-start;
+        width: 70%;
+        margin: auto;
+        position: relative;
+        &>img {
+            position: absolute;
+            transform: rotate(250deg);
+            top: -120px;
+            left: -500px;
+        }
         .card {
             margin: 1rem;
             h5 {
+                margin: 1rem 0;
                 font-size: 1.5rem;
                 font-weight: 400;
             }
@@ -30,5 +42,10 @@
             }
         }
         
+    }
+    &>img {
+        position: absolute;
+        top: 35%;
+        right: 0;
     }
 }
