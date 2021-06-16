@@ -1,0 +1,54 @@
+#events {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    h3 {
+        color: $color_cursive;
+        font-family: $font_corsivo;
+        font-size: 2.4rem;
+    }
+    h4 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .vertical {
+        position: absolute;
+        transform: rotate(90deg);
+        left: -3%;
+        bottom: 15%;
+        font-family: 'Londrina Shadow', cursive;
+        font-size: 7rem;
+        color: #F8F3EC;
+    }
+    .container {
+        margin-top: 2rem;
+        .row {
+            margin-top: 2rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .info {
+                padding: 2rem;
+                max-width: 300px;
+                .data {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: rgb(126, 126, 126);
+                }
+                h5 {
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    margin: 1rem 0;
+                }
+                .location {
+                    i {
+                        margin-right: 1rem;
+                    }
+                    color: rgb(126, 126, 126);
+                }
+            }
+        }
+    }
+}
