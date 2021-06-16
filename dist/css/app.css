@@ -221,3 +221,78 @@ nav .socials i {
   border-radius: 3px;
   font-weight: 600;
 }
+
+#people {
+  position: relative;
+}
+#people .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#people .video :last-child {
+  position: absolute;
+}
+#people .background :nth-child(1) {
+  position: absolute;
+  top: -30px;
+  left: 21%;
+  z-index: -1;
+}
+#people .background :nth-child(2) {
+  position: absolute;
+  top: 400px;
+  right: 17%;
+  z-index: -1;
+}
+#people section {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAF8F6;
+}
+#people section h3 {
+  font-size: 2.4rem;
+  color: #72C8F1;
+  font-family: "Allura", cursive;
+}
+#people section h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#people section .row {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#people section .row .card {
+  background-color: white;
+  padding: 2rem;
+  margin: 0 2rem;
+  line-height: 1.6rem;
+}
+#people section .row .card h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+#people section .row .card p {
+  margin-bottom: 2rem;
+}
+#people section .row .card .profilo {
+  display: flex;
+  align-items: center;
+}
+#people section .row .card .profilo > img {
+  border-radius: 50%;
+  height: 70px;
+}
+#people section .row .card .profilo .info {
+  margin-left: 1.5rem;
+}
+#people section .row .card .profilo .info h6 {
+  font-size: 1rem;
+}
