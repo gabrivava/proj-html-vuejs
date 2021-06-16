@@ -296,3 +296,21 @@ nav .socials i {
 #people section .row .card .profilo .info h6 {
   font-size: 1rem;
 }
+#people section .slider {
+  display: flex;
+  align-items: center;
+}
+#people section .slider div {
+  margin: 2rem 0.7rem;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+}
+#people section .slider .active {
+  margin: 2rem 0.7rem;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #111111;
+}

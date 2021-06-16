@@ -73,6 +73,24 @@
                 }
             }
         }
+        .slider {
+            display: flex;
+            align-items: center;
+            div {
+                margin: 2rem 0.7rem;
+                height: 8px;
+                width: 8px;
+                border-radius: 50%;
+                background-color: #d8d8d8;
+            }
+            .active {
+                margin: 2rem 0.7rem;
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+                background-color: #111111;
+            }
+        }
     }
     
 }
