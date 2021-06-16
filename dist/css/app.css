@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Allura&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -247,7 +248,7 @@ nav .socials i {
   z-index: -1;
 }
 #people section {
-  padding-top: 3rem;
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,9 +317,39 @@ nav .socials i {
 }
 
 #courses {
+  margin: 3.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+#courses h3 {
+  font-size: 2.4rem;
+  font-family: "Allura", cursive;
+  color: #72C8F1;
+}
+#courses h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+#courses .vertical {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -3%;
+  bottom: 45%;
+  font-family: "Londrina Shadow", cursive;
+  font-size: 7rem;
+  color: #F8F3EC;
+}
+#courses button {
+  margin-top: 2rem;
+  background-color: #FDF0EA;
+  border: none;
+  color: #EF6F31;
+  padding: 1rem 1.5rem;
+  border-radius: 3px;
+  font-weight: 600;
 }
 #courses .container {
   width: 70%;
@@ -329,7 +360,27 @@ nav .socials i {
 }
 #courses .container .card {
   padding: 1rem;
+  max-width: 300px;
 }
 #courses .container .card > img {
   height: 300px;
+}
+#courses .container .card h4 {
+  color: #EF6F31;
+  font-size: 1.3rem;
+  padding: 0.7rem;
+}
+#courses .container .card h5 {
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#courses .container .card div {
+  padding: 0.7rem;
+}
+#courses .container .card div i {
+  padding-right: 1rem;
+}
+#courses .container .card div span {
+  padding-right: 1rem;
 }

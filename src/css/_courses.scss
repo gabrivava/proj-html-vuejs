@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
 #courses {
+    margin: 3.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    h3 {
+        font-size: 2.4rem;
+        font-family: $font_corsivo;
+        color: $color_cursive;
+    }
+    h4 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .vertical {
+        position: absolute;
+        transform: rotate(90deg);
+        right: -3%;
+        bottom: 45%;
+        font-family: 'Londrina Shadow', cursive;
+        font-size: 7rem;
+        color: #F8F3EC;
+    }
+    button {
+        margin-top: 2rem;
+        background-color: #FDF0EA;
+        border: none;
+        color: #EF6F31;
+        padding: 1rem 1.5rem;
+        border-radius: 3px;
+        font-weight: 600;
+    }
     .container {
         width: 70%;
         margin: auto;
@@ -10,8 +41,28 @@
         justify-content: space-around;
         .card {
             padding: 1rem;
+            max-width: 300px;
             &>img {
                 height: 300px;
+            }
+            h4 {
+                color: #EF6F31;
+                font-size: 1.3rem;
+                padding: 0.7rem;
+            }
+            h5 {
+                padding: 0.7rem;
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            div {
+                padding: 0.7rem;
+                i {
+                    padding-right: 1rem;
+                }
+                span {
+                    padding-right: 1rem;
+                }
             }
         }
     }
