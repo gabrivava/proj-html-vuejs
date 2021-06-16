@@ -576,3 +576,35 @@ nav .socials i {
 #events .container .row .info .location i {
   margin-right: 1rem;
 }
+
+#newsletter {
+  height: 160px;
+  background-color: #244186;
+  background-image: url(/dist/img/artist-shape-color-paint-bottom-right-300x153.png), url(/dist/img/artist-shape-color-paint-top-left-300x170.png);
+  background-position: 100% 100%, 0% 0%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#newsletter h3 {
+  font-size: 2rem;
+  width: 15%;
+  text-align: right;
+  font-weight: 300;
+  margin-right: 3rem;
+}
+#newsletter input {
+  width: 30%;
+  background-color: none;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  background-color: #244186;
+  border-bottom: 2px solid #425B96;
+}
+
+footer {
+  margin-top: 4rem;
+}
