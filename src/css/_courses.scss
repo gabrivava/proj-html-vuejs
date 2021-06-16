@@ -62,7 +62,7 @@
         justify-content: space-around;
         .card {
             padding: 1rem;
-            width: 320px;
+            max-width: 320px;
             &>img {
                 width: 100%;
             }

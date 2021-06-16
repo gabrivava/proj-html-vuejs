@@ -1,0 +1,93 @@
+#blog {
+    padding: 3rem;
+    background-color: #F5F7FA;
+    text-align: center;
+    .articles {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .articolo {
+            width: 300px;
+            text-align: left;
+            box-shadow: 2px 2px 20px rgb(172, 172, 172);
+            margin: 2rem;
+            &>img {
+                width: 100%;
+            }
+            &>div {
+                padding: 1rem;
+                .type {
+                    margin: 0.5rem 0;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: rgb(134, 134, 134);
+                }
+                .title {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+                .info {
+                    color: rgb(134, 134, 134);
+                    margin: 1rem 0;
+                    i {
+                        margin: 0 0.5rem
+                    }
+                    span {
+                        margin-right: 1rem;;
+                    }
+                }
+            }
+            
+        }
+        .right {
+            margin-top: 100px;
+            align-self: flex-start;
+        }
+        .articolo-centrale {
+            margin: 2rem;
+            color: white;
+            position: relative;
+            &>div {
+                position: absolute;
+                z-index: 2;
+                bottom: 0;
+                padding: 2rem;
+                text-align: left;
+                .type {
+                    margin: 0.5rem 0;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+                .title {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+                .info {
+                    margin: 1rem 0;
+                    i {
+                        margin: 0 0.5rem
+                    }
+                    span {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .all_post {
+        :last-child {
+            color: #EF6F31;
+            font-weight: 600;
+        }
+    }
+    h3 {
+        font-size: 2.4rem;
+        color: $color_cursive;
+        font-family: $font_corsivo;
+    }
+    h4 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
