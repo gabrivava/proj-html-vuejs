@@ -61,7 +61,9 @@ const app = new Vue({
                 lessons: '6',
                 students: '50',
             },
-        ]
+        ],
+        footerExplore: ['Start here', 'Success story', 'Blog', 'Courses', 'Contact us'],
+        footerInformation: ['Membership', 'Purchase guide', 'Privacy policy', 'Terms of services'],
     },
     methods: {
             

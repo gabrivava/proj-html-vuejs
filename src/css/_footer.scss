@@ -8,14 +8,13 @@ footer {
         justify-content: space-around;
         .col {
             margin: 0 2rem;
-            background-color: aqua;
             h4 {
                 font-size: 1.3rem;
                 margin-bottom: 1rem;
             }
             li {
                 list-style: none;
-                line-height: 2rem;
+                line-height: 2.3rem;
             }
             .socials {
                 i {
@@ -29,6 +28,17 @@ footer {
                 color: #EF6F31;
                 font-weight: 400;
             }
+            .immagini {
+                img {
+                    width: 120px;
+                    margin: 0.3rem;
+                }
+            }
         }
+    }
+    .copyright {
+        text-align: center;
+        margin: 3rem;
+        color: rgb(144, 144, 144);
     }
 }

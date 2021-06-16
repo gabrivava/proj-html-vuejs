@@ -616,7 +616,6 @@ footer .container {
 }
 footer .container .col {
   margin: 0 2rem;
-  background-color: aqua;
 }
 footer .container .col h4 {
   font-size: 1.3rem;
@@ -624,7 +623,7 @@ footer .container .col h4 {
 }
 footer .container .col li {
   list-style: none;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 footer .container .col .socials i {
   margin-top: 1rem;
@@ -635,4 +634,13 @@ footer .container .col .socials i {
 footer .container .col .nick {
   color: #EF6F31;
   font-weight: 400;
+}
+footer .container .col .immagini img {
+  width: 120px;
+  margin: 0.3rem;
+}
+footer .copyright {
+  text-align: center;
+  margin: 3rem;
+  color: #909090;
 }

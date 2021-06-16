@@ -61,7 +61,9 @@ var app = new Vue({
       title: 'The Colored Pencil Drawing Course',
       lessons: '6',
       students: '50'
-    }]
+    }],
+    footerExplore: ['Start here', 'Success story', 'Blog', 'Courses', 'Contact us'],
+    footerInformation: ['Membership', 'Purchase guide', 'Privacy policy', 'Terms of services']
   },
   methods: {},
   mounted: function mounted() {
