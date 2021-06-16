@@ -5,6 +5,27 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+    .background {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        .n1 {
+            position: absolute;
+            left: -20%;
+            bottom: 10%;
+            transform: rotate(12deg);
+            z-index: -1;
+        }
+        .n2 {
+            position: absolute;
+            right: -18%;
+            top: 5%;
+            transform: rotate(-120deg);
+            z-index: -1;
+        }
+    }
     h3 {
         font-size: 2.4rem;
         font-family: $font_corsivo;
