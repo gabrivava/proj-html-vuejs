@@ -410,6 +410,7 @@ nav .socials i {
   padding: 3rem;
   background-color: #F5F7FA;
   text-align: center;
+  position: relative;
 }
 #blog .articles {
   margin-top: 2rem;
@@ -422,6 +423,8 @@ nav .socials i {
   text-align: left;
   box-shadow: 2px 2px 20px #acacac;
   margin: 2rem;
+  z-index: 2;
+  background-color: white;
 }
 #blog .articles .articolo > img {
   width: 100%;
@@ -454,27 +457,37 @@ nav .socials i {
   align-self: flex-start;
 }
 #blog .articles .articolo-centrale {
+  z-index: 2;
   margin: 2rem;
   color: white;
   position: relative;
+  height: 680px;
 }
 #blog .articles .articolo-centrale > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   position: absolute;
   z-index: 2;
   bottom: 0;
   padding: 2rem;
   text-align: left;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.22) -1.61%, rgba(255, 255, 255, 0) 100%);
 }
 #blog .articles .articolo-centrale > div .type {
   margin: 0.5rem 0;
   text-transform: uppercase;
   font-weight: 600;
+  color: #c5c5c5;
 }
 #blog .articles .articolo-centrale > div .title {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 #blog .articles .articolo-centrale > div .info {
+  color: #dddddd;
   margin: 1rem 0;
 }
 #blog .articles .articolo-centrale > div .info i {
@@ -482,6 +495,18 @@ nav .socials i {
 }
 #blog .articles .articolo-centrale > div .info span {
   margin-right: 1rem;
+}
+#blog .background :first-child {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  z-index: 1;
+}
+#blog .background :nth-child(2) {
+  position: absolute;
+  top: 18%;
+  left: 35%;
 }
 #blog .all_post :last-child {
   color: #EF6F31;
