@@ -181,6 +181,32 @@
                     </div>
                 </section>
             </div>
+
+            <!-- Latest Online Courses -->
+            <div id="courses">
+                <h3>Artist coaching</h3>
+                <h4>Latest Online Courses</h4>
+                <div class="vertical">
+                    courses
+                </div>
+
+                <!-- lezioni importate da vue js -->
+                <div class="container">
+                    <div v-for="course in courses" class="card">
+                        <img :src="'./dist/img/' + course.img" alt="">
+                        <h4 class="price">{{course.price}}</h4>
+                        <h5 class="title">{{course.title}}</h5>
+                        <div>
+                            <i class="far fa-file-alt"></i>
+                            <span>{{course.lezioni}} lessons</span>
+                            <i class="far fa-user"></i>
+                            <span>{{course.students}} Students</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         
