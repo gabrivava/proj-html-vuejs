@@ -10,7 +10,7 @@
 var app = new Vue({
   el: '#root',
   data: {
-    dataEvento: new Date("Jan 5, 2022 15:37:25").getTime(),
+    dataEvento: new Date("jun 17, 2021 15:37:25").getTime(),
     timerEvento: '',
     navList: ['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop'],
     courses: [{

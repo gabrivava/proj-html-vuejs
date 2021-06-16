@@ -24,13 +24,13 @@ body {
   color: #bcbcbc;
 }
 #event i {
-  margin: 0 1.3rem;
   font-weight: 500;
 }
-#event i > span {
-  margin: 0 1rem;
+#event .timer {
   font-weight: 600;
   font-size: 1rem;
+  color: black;
+  margin-right: 2rem;
 }
 #event button {
   background-color: #EF6F31;
