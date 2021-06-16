@@ -373,7 +373,7 @@ nav .socials i {
   font-weight: 600;
 }
 #courses .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -381,10 +381,10 @@ nav .socials i {
 }
 #courses .container .card {
   padding: 1rem;
-  max-width: 300px;
+  width: 320px;
 }
 #courses .container .card > img {
-  height: 300px;
+  width: 100%;
 }
 #courses .container .card h4 {
   color: #EF6F31;

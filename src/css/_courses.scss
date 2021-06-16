@@ -55,16 +55,16 @@
         font-weight: 600;
     }
     .container {
-        width: 70%;
+        width: 80%;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         .card {
             padding: 1rem;
-            max-width: 300px;
+            width: 320px;
             &>img {
-                height: 300px;
+                width: 100%;
             }
             h4 {
                 color: #EF6F31;
