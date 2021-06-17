@@ -100,6 +100,19 @@
             position: absolute;
             top: 18%;
             left: 35%;
+        }:nth-child(3) {
+            background: transparent;
+            position: absolute;
+            bottom: 5%;
+            right: 35%;
+            z-index: 1;
+        }
+        :nth-child(4) {
+            color: #ECC5AB;
+            font-size: 5rem;
+            position: absolute;
+            top: 20%;
+            left: 13%;
         }
     }
     .all_post {
