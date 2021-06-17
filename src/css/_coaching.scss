@@ -3,9 +3,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/dist/img/maxcoach-shape-14.png);
+    background-image: 
+    url(/dist/img/maxcoach-shape-14.png),
+    url(/dist/img/image3.jpg),
+    url(/dist/img/maxcoach-shape-13.png);
+    background-position: 
+    0% 0%,
+    85% 30%,
+    105% 17%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 
+    100%,
+    20%,
+    10%;
     h3 {
         font-size: 2.4rem;
         color: $color_cursive;
