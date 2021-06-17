@@ -248,12 +248,33 @@ nav .socials i {
   right: 17%;
   z-index: -1;
 }
+#people .background :nth-child(3) {
+  position: absolute;
+  top: -30px;
+  left: 20%;
+  z-index: -2;
+}
+#people .background :nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  left: 0;
+  z-index: -2;
+}
+#people .background :nth-child(5) {
+  position: absolute;
+  top: 10%;
+  right: 21%;
+  z-index: 1;
+  font-size: 5rem;
+  border: none;
+}
 #people section {
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FAF8F6;
 }
 #people section h3 {
   font-size: 2.4rem;
@@ -269,6 +290,9 @@ nav .socials i {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+#people section .row .filter {
+  opacity: 0.5;
 }
 #people section .row .card {
   background-color: white;

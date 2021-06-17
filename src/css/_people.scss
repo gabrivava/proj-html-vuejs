@@ -1,5 +1,6 @@
 #people {
     position: relative;
+
     .video {
         display: flex;
         justify-content: center;
@@ -22,6 +23,28 @@
             right: 17%;
             z-index: -1;
         }
+        :nth-child(3) {
+            position: absolute;
+            top: -30px;
+            left: 20%;
+            z-index: -2;
+        }
+        :nth-child(4) {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            left: 0;
+            z-index: -2;
+        }
+        :nth-child(5) {
+            position: absolute;
+            top: 10%;
+            right: 21%;
+            z-index: 1;
+            font-size: 5rem;
+            border: none;
+        }
     }
 
     section {
@@ -29,7 +52,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #FAF8F6;
+        //background-color: #FAF8F6;
         h3 {
             font-size: 2.4rem;
             color: $color_cursive;
@@ -44,6 +67,9 @@
             display: flex;
             justify-content: space-around;
             width: 100%;
+            .filter {
+                opacity: 0.5;
+            }
             .card {
                 background-color: white;
                 padding: 2rem;
