@@ -3,19 +3,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: 
-    url(/dist/img/maxcoach-shape-14.png),
-    url(/dist/img/image3.jpg),
-    url(/dist/img/maxcoach-shape-13.png);
-    background-position: 
-    0% 0%,
-    85% 30%,
-    105% 17%;
-    background-repeat: no-repeat;
-    background-size: 
-    100%,
-    20%,
-    10%;
+    position: relative;
+    .background {
+        :nth-child(1) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        :nth-child(2) {
+            position: absolute;
+            top: 10%;
+            left: 68%;
+            z-index: -2;
+            height: 300px;
+        }
+        :nth-child(3) {
+            position: absolute;
+            top: 17%;
+            left: 92%;
+        }
+    }
     h3 {
         font-size: 2.4rem;
         color: $color_cursive;
