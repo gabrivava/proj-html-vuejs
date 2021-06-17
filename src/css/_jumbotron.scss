@@ -1,29 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 .jumbotron {
     height: 750px;
+    max-width: 100%;
+    overflow: hidden;
     background-color: $background_jumbotron;
-    background-image: 
-        url(/dist/img/artist-shape-01.png),
-        url(/dist/img/artist-shape-02.png),
-        url(/dist/img/artist-shape-03.png),
-        url(/dist/img/artist-shape-04.png),
-        url(/dist/img/maxcoach-shape-12.png),
-        url(/dist/img/artist-shape-05.png),
-        url(/dist/img/artist-hero-image-03.png),
-        url(/dist/img/figura1.jpg),
-        url(/dist/img/imageYellow.jpg);
-    background-position:
-        90% 0%,
-        0% 0%,
-        1% 80%,
-        93% 20%,
-        80% 93%,
-        95% 100%,
-        33% 90%,
-        0% 70%,
-        75% 90%;
-    background-repeat: no-repeat;
     position: relative;
+    .img-background {
+        :nth-child(1) {
+            position: absolute;
+            top: 0%;
+            left: 50%;
+        }
+        :nth-child(2) {
+            position: absolute;
+            top: 00%;
+            left: 0%;
+            z-index: 1;
+        }
+        :nth-child(3) {
+            position: absolute;
+            top: 23%;
+            left: 1%;
+            z-index: 1;
+        }
+        :nth-child(4) {
+            position: absolute;
+            top: 20%;
+            left: 82%;
+        }
+        :nth-child(5) {
+            position: absolute;
+            top: 70%;
+            left: 72%;
+            z-index: 1;
+        }
+        :nth-child(6) {
+            position: absolute;
+            top: 68%;
+            left: 73%;
+            z-index: 0;
+        }
+        :nth-child(7) {
+            position: absolute;
+            top: 50%;
+            left: 25%;
+        }
+        :nth-child(8) {
+            position: absolute;
+            top: 40%;
+            left: 0;
+        }
+        :nth-child(9) {
+            position: absolute;
+            top: 73%;
+            left: 70%;
+        }
+    }
     .artist-hero-image {
         height: 100%;
         position: relative;
@@ -37,11 +69,13 @@
             position: absolute;
             top: 15%;
             left: 19%;
+            z-index: 2;
         }
         .n3 {
             position: absolute;
             top: 50%;
             left: 72%;
+            z-index: 2;
         }
         img {
             box-shadow: 1px 1px 20px rgb(151, 151, 151);
